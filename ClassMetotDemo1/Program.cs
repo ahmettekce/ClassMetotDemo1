@@ -50,13 +50,12 @@ namespace ClassMetotDemo1
                 Console.WriteLine($"Adı: {musteri.Ad} \nSoyad: {musteri.Soyad} \nAdres: {musteri.Adres} \nMüşteri hesap no: {musteri.HesapNo}");
                 Aralik();
             }
-
-
         }
 
         public static void Aralik()
         {
             Console.WriteLine("-----------------------------------------");
+            Console.WriteLine("Hello World!");
         }
     }
 }
