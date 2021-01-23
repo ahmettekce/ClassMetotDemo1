@@ -45,6 +45,7 @@ namespace ClassMetotDemo1
             Console.WriteLine(musteriManager.MusteriSil(musteri5));
             Aralik();
 
+
             foreach (var musteri in musteris)
             {
                 Console.WriteLine($"Adı: {musteri.Ad} \nSoyad: {musteri.Soyad} \nAdres: {musteri.Adres} \nMüşteri hesap no: {musteri.HesapNo}");
